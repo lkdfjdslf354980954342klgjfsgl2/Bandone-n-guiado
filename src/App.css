@@ -1,2 +1,0 @@
-.bando-btn{transition:transform 0.1s;transform:translateY(0);}
-.bando-btn.sunk{transform:translateY(6px) scale(0.95);box-shadow:inset 0 2px 4px #000;}

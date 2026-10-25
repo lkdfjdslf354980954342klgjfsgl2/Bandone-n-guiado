@@ -1,2 +1,8 @@
 .bando-btn{transition:transform 0.1s;transform:translateY(0);}
 .bando-btn.sunk{transform:translateY(6px) scale(0.95);box-shadow:inset 0 2px 4px #000;}
+.wrap{text-align:center;padding:10px}
+.board{display:flex;gap:20px;justify-content:center}
+.left,.right{display:grid;grid-template-columns:repeat(4,60px);gap:8px}
+.bando-btn{height:60px;border-radius:50%;border:2px solid #333;background:#fafafa;transition:transform 0.1s}
+.bando-btn.sunk{transform:translateY(6px) scale(0.92);background:#ddd;box-shadow:inset 0 3px 5px #000}
+.bando-btn small{font-size:8px;display:block}
